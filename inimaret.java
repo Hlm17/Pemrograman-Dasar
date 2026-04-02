@@ -57,5 +57,7 @@ public class inimaret {
         System.out.println("Anda mendapatkan Diskon = " + diskon);
         System.out.println("Total harga belanjaan: " + totalHarga);
         scanner.close();
+    // git push
+    
     }
 }
