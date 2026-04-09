@@ -24,7 +24,7 @@ public class loopInimaret {
 
         do {
             if (inputString.equalsIgnoreCase(inputString = "y")) {
-                System.out.println("Masukkan nama barang yang dibeli : ");
+                System.out.print("Masukkan nama barang yang dibeli : ");
             }if (inputString.equalsIgnoreCase(inputString = "y")) {
                 
                 String namaBarang = inputScanner.next();
