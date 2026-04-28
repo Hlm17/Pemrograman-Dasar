@@ -5,9 +5,9 @@ public class latihanArray1D {
     public static void main(String[] args) {
         Scanner inputUser = new Scanner(System.in);
 
-        String[] kategori = null;
-        int[] harga = null;
-        int[] jumlahBeli = null;
+        String[] kategori = new String[0];
+        int[] harga = new int[0];
+        int[] jumlahBeli = new int[0];
 
         int total = 0, input = 0;
 
@@ -47,7 +47,7 @@ public class latihanArray1D {
                     break;
 
                 case 2:
-                    if (kategori == null) {
+                    if (kategori.length == 0) {
                         System.out.println("Silakan input kategori dulu di menu 1!");
                         break;
                     }
@@ -59,8 +59,8 @@ public class latihanArray1D {
                     break;
 
                 case 3:
-                    if (kategori == null || jumlahBeli == null) {
-                        System.out.println("Data belum lengkap!");
+                    if (kategori.length == 0) {
+                        System.out.println("Data belum ada!");
                         break;
                     }
 
