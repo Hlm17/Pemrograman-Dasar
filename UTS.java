@@ -2,9 +2,7 @@ import java.util.Scanner;
 public class UTS {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // user mengisi jumlah pelanggan disimpan dalam variabel (minimal 3 pelanggan), kemudian tanggal dan total belanja diisi dan disimpan dalam array 1 dimensi
-        //kategori pelanggan yang disediakan adalah 2, kategori member dan non member
-        //Jika member dan belanja >= 100.000 maka dapat poin 50. Jika member dan belanja <100.000 maka dapat poin 20. Jika non member dan belanja >= 100.000 maka dapat poin 10.
+    
         int pelanggan[];
 
         System.out.print("Masukkan jumlah pelanggan (minimal 3): ");
