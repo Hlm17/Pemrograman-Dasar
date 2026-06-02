@@ -4,9 +4,9 @@ public class prosedurDataMahasiswa {
         System.out.println("=================================================");
         System.out.println("!               KARTU MAHASISWA                 !");
         System.out.println("=================================================");
-        System.out.println("!   Nama    : " + nama+"    "+ "                        !");
-        System.out.println("!   NIM     : " + nim+ "    "+ "                   !");
-        System.out.println("!   IPK     : " + ipk+ "    "+ "                        !");
+        System.out.println("!   Nama    : " + nama+"    "+"                        !");
+        System.out.println("!   NIM     : " + nim+ "    "+"                   !");
+        System.out.println("!   IPK     : " + ipk+ "    "+"                        !");
         System.out.println("=================================================");
         int n = 0;
         return n;
