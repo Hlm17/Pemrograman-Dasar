@@ -1,17 +1,27 @@
 import java.util.Scanner;
 public class prosedurDataMahasiswa {
-    static int tampilkanMahasiswa (String nama, String nim, double ipk) {
+    static void tampilkanMahasiswa (String nama, String nim, double ipk) {
         System.out.println("=================================================");
         System.out.println("!               KARTU MAHASISWA                 !");
         System.out.println("=================================================");
-        System.out.println("!   Nama    : " + nama+"    "+"                        !");
-        System.out.println("!   NIM     : " + nim+ "    "+"                   !");
-        System.out.println("!   IPK     : " + ipk+ "    "+"                        !");
+        System.out.print("!   Nama    : " + nama);
+        for (int i = 0; i < 34 - nama.length(); i++) {
+            System.out.print(" ");
+        }
+        System.out.println("!");
+        System.out.print("!   NIM     : " + nim);
+        for (int i = 0; i < 34 - nim.length(); i++) {
+            System.out.print(" ");
+        }
+        System.out.println("!");
+        System.out.print("!   IPK     : " + ipk);
+        for (int i = 0; i < 34 - String.valueOf(ipk).length(); i++) {
+            System.out.print(" ");
+        }
+        System.out.println("!");
         System.out.println("=================================================");
-        int n = 0;
-        return n;
     }
-
+//35 sama dengan dari input karakter 0
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan nama mahasiswa: ");
